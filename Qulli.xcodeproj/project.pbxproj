@@ -1,0 +1,897 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05D283167B5AE8CDF7936F14 /* Pods_Qulli.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC1C83993C3BAE3B9B7CE131 /* Pods_Qulli.framework */; };
+		817BD3D7200F7541003A09A3 /* NewScanController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817BD3D6200F7541003A09A3 /* NewScanController.swift */; };
+		818281892011CEC3002BAF5E /* ChangePasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818281882011CEC3002BAF5E /* ChangePasswordController.swift */; };
+		81920556201060E6006A3972 /* ScanDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81920555201060E6006A3972 /* ScanDetailController.swift */; };
+		819B38472010D4A400022F17 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819B38462010D4A400022F17 /* MenuViewController.swift */; };
+		81ACF2FE2010B2B0001E8104 /* BookingDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81ACF2FD2010B2B0001E8104 /* BookingDetailController.swift */; };
+		81ACF3002010BDFC001E8104 /* BookingDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81ACF2FF2010BDFC001E8104 /* BookingDetailCell.swift */; };
+		81B7E1CF200F25FD00EA555E /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81B7E1D0200F25FD00EA555E /* Alamofire.framework */; };
+		81B7E1DD200F3B3E00EA555E /* TPFloatRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B7E1D1200F3B3C00EA555E /* TPFloatRatingView.m */; };
+		81B7E1DE200F3B3E00EA555E /* FullyLoaded.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B7E1D4200F3B3D00EA555E /* FullyLoaded.m */; };
+		81B7E1DF200F3B3E00EA555E /* KIImagePager.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B7E1D6200F3B3D00EA555E /* KIImagePager.m */; };
+		81B7E1E0200F3B3E00EA555E /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B7E1D7200F3B3D00EA555E /* MBProgressHUD.m */; };
+		81B7E1E1200F3B3E00EA555E /* FLImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B7E1D8200F3B3D00EA555E /* FLImageView.m */; };
+		81B7E1E2200F3B3E00EA555E /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B7E1DA200F3B3E00EA555E /* Reachability.m */; };
+		81B7E1E5200F3B5700EA555E /* SharedManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B7E1E3200F3B5700EA555E /* SharedManager.swift */; };
+		81B7E1E6200F3B5700EA555E /* UIColor+AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B7E1E4200F3B5700EA555E /* UIColor+AppColors.swift */; };
+		81B7E1ED200F4BBD00EA555E /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B7E1EC200F4BBC00EA555E /* SWRevealViewController.m */; };
+		81B7E1EF200F4DBD00EA555E /* BookingListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B7E1EE200F4DBD00EA555E /* BookingListController.swift */; };
+		81B7E1F1200F55F600EA555E /* BookingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B7E1F0200F55F600EA555E /* BookingCell.swift */; };
+		81C2F3FA200F23A700767044 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C2F3F9200F23A700767044 /* AppDelegate.swift */; };
+		81C2F3FC200F23A700767044 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C2F3FB200F23A700767044 /* ViewController.swift */; };
+		81C2F3FF200F23A700767044 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81C2F3FD200F23A700767044 /* Main.storyboard */; };
+		81C2F402200F23A700767044 /* Qulli.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 81C2F400200F23A700767044 /* Qulli.xcdatamodeld */; };
+		81C2F404200F23A700767044 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81C2F403200F23A700767044 /* Assets.xcassets */; };
+		81C2F407200F23A700767044 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81C2F405200F23A700767044 /* LaunchScreen.storyboard */; };
+		81C2F412200F23A700767044 /* QulliTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C2F411200F23A700767044 /* QulliTests.swift */; };
+		81C2F41D200F23A700767044 /* QulliUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C2F41C200F23A700767044 /* QulliUITests.swift */; };
+		81C2F42B200F246D00767044 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C2F42A200F246C00767044 /* LoginViewController.swift */; };
+		9C790A2D20186D1000A16C90 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C790A2C20186D1000A16C90 /* ImageCell.swift */; };
+		C35125E4ACE4080DEA6F72BB /* Pods_QulliUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C4FB51D1C3C64D6ECA8ABD /* Pods_QulliUITests.framework */; };
+		E912A67168ABF391A2C1FDA9 /* Pods_QulliTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65D405F8638CE69B7B6FFF73 /* Pods_QulliTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81C2F40E200F23A700767044 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81C2F3EE200F23A700767044 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81C2F3F5200F23A700767044;
+			remoteInfo = Qulli;
+		};
+		81C2F419200F23A700767044 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81C2F3EE200F23A700767044 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81C2F3F5200F23A700767044;
+			remoteInfo = Qulli;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0370AECDDC88787641401681 /* Pods-QulliTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QulliTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QulliTests/Pods-QulliTests.release.xcconfig"; sourceTree = "<group>"; };
+		0437B51C90AFEAA1960632F5 /* Pods-Qulli.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Qulli.release.xcconfig"; path = "Pods/Target Support Files/Pods-Qulli/Pods-Qulli.release.xcconfig"; sourceTree = "<group>"; };
+		08E3887A64C13AFD713633D2 /* Pods-QulliUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QulliUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QulliUITests/Pods-QulliUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		54B1E50B18E7D3D7AA41FFF4 /* Pods-QulliUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QulliUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QulliUITests/Pods-QulliUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5B097669C5D7CA773F4931B3 /* Pods-Qulli.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Qulli.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Qulli/Pods-Qulli.debug.xcconfig"; sourceTree = "<group>"; };
+		65D405F8638CE69B7B6FFF73 /* Pods_QulliTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QulliTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		817BD3D6200F7541003A09A3 /* NewScanController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewScanController.swift; sourceTree = "<group>"; };
+		818281882011CEC3002BAF5E /* ChangePasswordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordController.swift; sourceTree = "<group>"; };
+		81920555201060E6006A3972 /* ScanDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanDetailController.swift; sourceTree = "<group>"; };
+		819B38462010D4A400022F17 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		81ACF2FD2010B2B0001E8104 /* BookingDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingDetailController.swift; sourceTree = "<group>"; };
+		81ACF2FF2010BDFC001E8104 /* BookingDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingDetailCell.swift; sourceTree = "<group>"; };
+		81B7E1D0200F25FD00EA555E /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81B7E1D1200F3B3C00EA555E /* TPFloatRatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPFloatRatingView.m; sourceTree = "<group>"; };
+		81B7E1D2200F3B3C00EA555E /* FullyLoaded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullyLoaded.h; sourceTree = "<group>"; };
+		81B7E1D3200F3B3D00EA555E /* FLImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLImageView.h; sourceTree = "<group>"; };
+		81B7E1D4200F3B3D00EA555E /* FullyLoaded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullyLoaded.m; sourceTree = "<group>"; };
+		81B7E1D5200F3B3D00EA555E /* KIImagePager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIImagePager.h; sourceTree = "<group>"; };
+		81B7E1D6200F3B3D00EA555E /* KIImagePager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIImagePager.m; sourceTree = "<group>"; };
+		81B7E1D7200F3B3D00EA555E /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		81B7E1D8200F3B3D00EA555E /* FLImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLImageView.m; sourceTree = "<group>"; };
+		81B7E1D9200F3B3E00EA555E /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		81B7E1DA200F3B3E00EA555E /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		81B7E1DB200F3B3E00EA555E /* TPFloatRatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPFloatRatingView.h; sourceTree = "<group>"; };
+		81B7E1DC200F3B3E00EA555E /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		81B7E1E3200F3B5700EA555E /* SharedManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedManager.swift; sourceTree = "<group>"; };
+		81B7E1E4200F3B5700EA555E /* UIColor+AppColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+AppColors.swift"; sourceTree = "<group>"; };
+		81B7E1E8200F499D00EA555E /* Qulli-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Qulli-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		81B7E1E9200F4A0F00EA555E /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		81B7E1EB200F4BBC00EA555E /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		81B7E1EC200F4BBC00EA555E /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		81B7E1EE200F4DBD00EA555E /* BookingListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingListController.swift; sourceTree = "<group>"; };
+		81B7E1F0200F55F600EA555E /* BookingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingCell.swift; sourceTree = "<group>"; };
+		81C2F3F6200F23A700767044 /* Qulli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Qulli.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81C2F3F9200F23A700767044 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		81C2F3FB200F23A700767044 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		81C2F3FE200F23A700767044 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81C2F401200F23A700767044 /* Qulli.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Qulli.xcdatamodel; sourceTree = "<group>"; };
+		81C2F403200F23A700767044 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81C2F406200F23A700767044 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81C2F408200F23A700767044 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81C2F40D200F23A700767044 /* QulliTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QulliTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81C2F411200F23A700767044 /* QulliTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QulliTests.swift; sourceTree = "<group>"; };
+		81C2F413200F23A700767044 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81C2F418200F23A700767044 /* QulliUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QulliUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81C2F41C200F23A700767044 /* QulliUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QulliUITests.swift; sourceTree = "<group>"; };
+		81C2F41E200F23A700767044 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81C2F42A200F246C00767044 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9C790A2C20186D1000A16C90 /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		A8732C958477C6D4D8134DB3 /* Pods-QulliTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QulliTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QulliTests/Pods-QulliTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B1C4FB51D1C3C64D6ECA8ABD /* Pods_QulliUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QulliUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC1C83993C3BAE3B9B7CE131 /* Pods_Qulli.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Qulli.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81C2F3F3200F23A700767044 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B7E1CF200F25FD00EA555E /* Alamofire.framework in Frameworks */,
+				05D283167B5AE8CDF7936F14 /* Pods_Qulli.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C2F40A200F23A700767044 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E912A67168ABF391A2C1FDA9 /* Pods_QulliTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C2F415200F23A700767044 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C35125E4ACE4080DEA6F72BB /* Pods_QulliUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81B7E1EA200F4A8600EA555E /* External */ = {
+			isa = PBXGroup;
+			children = (
+				81B7E1EB200F4BBC00EA555E /* SWRevealViewController.h */,
+				81B7E1EC200F4BBC00EA555E /* SWRevealViewController.m */,
+				81B7E1D3200F3B3D00EA555E /* FLImageView.h */,
+				81B7E1D8200F3B3D00EA555E /* FLImageView.m */,
+				81B7E1D2200F3B3C00EA555E /* FullyLoaded.h */,
+				81B7E1D4200F3B3D00EA555E /* FullyLoaded.m */,
+				81B7E1D5200F3B3D00EA555E /* KIImagePager.h */,
+				81B7E1D6200F3B3D00EA555E /* KIImagePager.m */,
+				81B7E1D9200F3B3E00EA555E /* MBProgressHUD.h */,
+				81B7E1D7200F3B3D00EA555E /* MBProgressHUD.m */,
+				81B7E1DC200F3B3E00EA555E /* Reachability.h */,
+				81B7E1DA200F3B3E00EA555E /* Reachability.m */,
+				81B7E1DB200F3B3E00EA555E /* TPFloatRatingView.h */,
+				81B7E1D1200F3B3C00EA555E /* TPFloatRatingView.m */,
+				81B7E1E3200F3B5700EA555E /* SharedManager.swift */,
+				81B7E1E4200F3B5700EA555E /* UIColor+AppColors.swift */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		81C2F3ED200F23A700767044 = {
+			isa = PBXGroup;
+			children = (
+				81C2F3F8200F23A700767044 /* Qulli */,
+				81C2F410200F23A700767044 /* QulliTests */,
+				81C2F41B200F23A700767044 /* QulliUITests */,
+				81C2F3F7200F23A700767044 /* Products */,
+				910E95F76B3C68A25FF79136 /* Pods */,
+				FB67D838FD23E2E5BD893E7D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		81C2F3F7200F23A700767044 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81C2F3F6200F23A700767044 /* Qulli.app */,
+				81C2F40D200F23A700767044 /* QulliTests.xctest */,
+				81C2F418200F23A700767044 /* QulliUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81C2F3F8200F23A700767044 /* Qulli */ = {
+			isa = PBXGroup;
+			children = (
+				81C2F3F9200F23A700767044 /* AppDelegate.swift */,
+				81C2F3FB200F23A700767044 /* ViewController.swift */,
+				81C2F42A200F246C00767044 /* LoginViewController.swift */,
+				819B38462010D4A400022F17 /* MenuViewController.swift */,
+				81B7E1EE200F4DBD00EA555E /* BookingListController.swift */,
+				81B7E1F0200F55F600EA555E /* BookingCell.swift */,
+				81ACF2FD2010B2B0001E8104 /* BookingDetailController.swift */,
+				9C790A2C20186D1000A16C90 /* ImageCell.swift */,
+				81ACF2FF2010BDFC001E8104 /* BookingDetailCell.swift */,
+				817BD3D6200F7541003A09A3 /* NewScanController.swift */,
+				81920555201060E6006A3972 /* ScanDetailController.swift */,
+				818281882011CEC3002BAF5E /* ChangePasswordController.swift */,
+				81C2F3FD200F23A700767044 /* Main.storyboard */,
+				81C2F403200F23A700767044 /* Assets.xcassets */,
+				81C2F405200F23A700767044 /* LaunchScreen.storyboard */,
+				81C2F408200F23A700767044 /* Info.plist */,
+				81C2F400200F23A700767044 /* Qulli.xcdatamodeld */,
+				81B7E1EA200F4A8600EA555E /* External */,
+				81B7E1E8200F499D00EA555E /* Qulli-Bridging-Header.h */,
+				81B7E1E9200F4A0F00EA555E /* PrefixHeader.pch */,
+			);
+			path = Qulli;
+			sourceTree = "<group>";
+		};
+		81C2F410200F23A700767044 /* QulliTests */ = {
+			isa = PBXGroup;
+			children = (
+				81C2F411200F23A700767044 /* QulliTests.swift */,
+				81C2F413200F23A700767044 /* Info.plist */,
+			);
+			path = QulliTests;
+			sourceTree = "<group>";
+		};
+		81C2F41B200F23A700767044 /* QulliUITests */ = {
+			isa = PBXGroup;
+			children = (
+				81C2F41C200F23A700767044 /* QulliUITests.swift */,
+				81C2F41E200F23A700767044 /* Info.plist */,
+			);
+			path = QulliUITests;
+			sourceTree = "<group>";
+		};
+		910E95F76B3C68A25FF79136 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B097669C5D7CA773F4931B3 /* Pods-Qulli.debug.xcconfig */,
+				0437B51C90AFEAA1960632F5 /* Pods-Qulli.release.xcconfig */,
+				A8732C958477C6D4D8134DB3 /* Pods-QulliTests.debug.xcconfig */,
+				0370AECDDC88787641401681 /* Pods-QulliTests.release.xcconfig */,
+				08E3887A64C13AFD713633D2 /* Pods-QulliUITests.debug.xcconfig */,
+				54B1E50B18E7D3D7AA41FFF4 /* Pods-QulliUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FB67D838FD23E2E5BD893E7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81B7E1D0200F25FD00EA555E /* Alamofire.framework */,
+				EC1C83993C3BAE3B9B7CE131 /* Pods_Qulli.framework */,
+				65D405F8638CE69B7B6FFF73 /* Pods_QulliTests.framework */,
+				B1C4FB51D1C3C64D6ECA8ABD /* Pods_QulliUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81C2F3F5200F23A700767044 /* Qulli */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81C2F421200F23A700767044 /* Build configuration list for PBXNativeTarget "Qulli" */;
+			buildPhases = (
+				A7914EB9855F472FF5C41818 /* [CP] Check Pods Manifest.lock */,
+				81C2F3F2200F23A700767044 /* Sources */,
+				81C2F3F3200F23A700767044 /* Frameworks */,
+				81C2F3F4200F23A700767044 /* Resources */,
+				B13A2F88FC4E6C784567D457 /* [CP] Embed Pods Frameworks */,
+				BEF644CC4985D1CCA9EB595C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Qulli;
+			productName = Qulli;
+			productReference = 81C2F3F6200F23A700767044 /* Qulli.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81C2F40C200F23A700767044 /* QulliTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81C2F424200F23A700767044 /* Build configuration list for PBXNativeTarget "QulliTests" */;
+			buildPhases = (
+				0FCAA3102437561C94A78250 /* [CP] Check Pods Manifest.lock */,
+				81C2F409200F23A700767044 /* Sources */,
+				81C2F40A200F23A700767044 /* Frameworks */,
+				81C2F40B200F23A700767044 /* Resources */,
+				7B6D60CC2FC2C865CF0DB1C1 /* [CP] Embed Pods Frameworks */,
+				7FC697BBDE82BE843687363F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81C2F40F200F23A700767044 /* PBXTargetDependency */,
+			);
+			name = QulliTests;
+			productName = QulliTests;
+			productReference = 81C2F40D200F23A700767044 /* QulliTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		81C2F417200F23A700767044 /* QulliUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81C2F427200F23A700767044 /* Build configuration list for PBXNativeTarget "QulliUITests" */;
+			buildPhases = (
+				2ADF7351E435D83BC02B6BB6 /* [CP] Check Pods Manifest.lock */,
+				81C2F414200F23A700767044 /* Sources */,
+				81C2F415200F23A700767044 /* Frameworks */,
+				81C2F416200F23A700767044 /* Resources */,
+				E27905640AC7C1BB3EAD8E7B /* [CP] Embed Pods Frameworks */,
+				9A733316CDA07E0C010FEB61 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81C2F41A200F23A700767044 /* PBXTargetDependency */,
+			);
+			name = QulliUITests;
+			productName = QulliUITests;
+			productReference = 81C2F418200F23A700767044 /* QulliUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81C2F3EE200F23A700767044 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Kamal rastogi";
+				TargetAttributes = {
+					81C2F3F5200F23A700767044 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					81C2F40C200F23A700767044 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 81C2F3F5200F23A700767044;
+					};
+					81C2F417200F23A700767044 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 81C2F3F5200F23A700767044;
+					};
+				};
+			};
+			buildConfigurationList = 81C2F3F1200F23A700767044 /* Build configuration list for PBXProject "Qulli" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81C2F3ED200F23A700767044;
+			productRefGroup = 81C2F3F7200F23A700767044 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81C2F3F5200F23A700767044 /* Qulli */,
+				81C2F40C200F23A700767044 /* QulliTests */,
+				81C2F417200F23A700767044 /* QulliUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81C2F3F4200F23A700767044 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81C2F407200F23A700767044 /* LaunchScreen.storyboard in Resources */,
+				81C2F404200F23A700767044 /* Assets.xcassets in Resources */,
+				81C2F3FF200F23A700767044 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C2F40B200F23A700767044 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C2F416200F23A700767044 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FCAA3102437561C94A78250 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QulliTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2ADF7351E435D83BC02B6BB6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QulliUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B6D60CC2FC2C865CF0DB1C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QulliTests/Pods-QulliTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FC697BBDE82BE843687363F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QulliTests/Pods-QulliTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A733316CDA07E0C010FEB61 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QulliUITests/Pods-QulliUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7914EB9855F472FF5C41818 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Qulli-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B13A2F88FC4E6C784567D457 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Qulli/Pods-Qulli-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Qulli/Pods-Qulli-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEF644CC4985D1CCA9EB595C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Qulli/Pods-Qulli-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E27905640AC7C1BB3EAD8E7B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QulliUITests/Pods-QulliUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81C2F3F2200F23A700767044 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B7E1ED200F4BBD00EA555E /* SWRevealViewController.m in Sources */,
+				81B7E1E5200F3B5700EA555E /* SharedManager.swift in Sources */,
+				81B7E1DD200F3B3E00EA555E /* TPFloatRatingView.m in Sources */,
+				81B7E1DE200F3B3E00EA555E /* FullyLoaded.m in Sources */,
+				81B7E1DF200F3B3E00EA555E /* KIImagePager.m in Sources */,
+				817BD3D7200F7541003A09A3 /* NewScanController.swift in Sources */,
+				81C2F42B200F246D00767044 /* LoginViewController.swift in Sources */,
+				81B7E1E6200F3B5700EA555E /* UIColor+AppColors.swift in Sources */,
+				81ACF3002010BDFC001E8104 /* BookingDetailCell.swift in Sources */,
+				81B7E1EF200F4DBD00EA555E /* BookingListController.swift in Sources */,
+				81B7E1E2200F3B3E00EA555E /* Reachability.m in Sources */,
+				818281892011CEC3002BAF5E /* ChangePasswordController.swift in Sources */,
+				819B38472010D4A400022F17 /* MenuViewController.swift in Sources */,
+				9C790A2D20186D1000A16C90 /* ImageCell.swift in Sources */,
+				81ACF2FE2010B2B0001E8104 /* BookingDetailController.swift in Sources */,
+				81C2F402200F23A700767044 /* Qulli.xcdatamodeld in Sources */,
+				81C2F3FC200F23A700767044 /* ViewController.swift in Sources */,
+				81920556201060E6006A3972 /* ScanDetailController.swift in Sources */,
+				81B7E1F1200F55F600EA555E /* BookingCell.swift in Sources */,
+				81B7E1E1200F3B3E00EA555E /* FLImageView.m in Sources */,
+				81C2F3FA200F23A700767044 /* AppDelegate.swift in Sources */,
+				81B7E1E0200F3B3E00EA555E /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C2F409200F23A700767044 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81C2F412200F23A700767044 /* QulliTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C2F414200F23A700767044 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81C2F41D200F23A700767044 /* QulliUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81C2F40F200F23A700767044 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81C2F3F5200F23A700767044 /* Qulli */;
+			targetProxy = 81C2F40E200F23A700767044 /* PBXContainerItemProxy */;
+		};
+		81C2F41A200F23A700767044 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81C2F3F5200F23A700767044 /* Qulli */;
+			targetProxy = 81C2F419200F23A700767044 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81C2F3FD200F23A700767044 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81C2F3FE200F23A700767044 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		81C2F405200F23A700767044 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81C2F406200F23A700767044 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81C2F41F200F23A700767044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		81C2F420200F23A700767044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81C2F422200F23A700767044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B097669C5D7CA773F4931B3 /* Pods-Qulli.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J34Y5CTZ4L;
+				GCC_PREFIX_HEADER = Qulli/PrefixHeader.pch;
+				INFOPLIST_FILE = Qulli/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Qulli;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Qulli-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		81C2F423200F23A700767044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0437B51C90AFEAA1960632F5 /* Pods-Qulli.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J34Y5CTZ4L;
+				GCC_PREFIX_HEADER = Qulli/PrefixHeader.pch;
+				INFOPLIST_FILE = Qulli/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Qulli;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Qulli-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		81C2F425200F23A700767044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8732C958477C6D4D8134DB3 /* Pods-QulliTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J34Y5CTZ4L;
+				INFOPLIST_FILE = QulliTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shikha-Sharma.QulliTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Qulli.app/Qulli";
+			};
+			name = Debug;
+		};
+		81C2F426200F23A700767044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0370AECDDC88787641401681 /* Pods-QulliTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J34Y5CTZ4L;
+				INFOPLIST_FILE = QulliTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shikha-Sharma.QulliTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Qulli.app/Qulli";
+			};
+			name = Release;
+		};
+		81C2F428200F23A700767044 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08E3887A64C13AFD713633D2 /* Pods-QulliUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J34Y5CTZ4L;
+				INFOPLIST_FILE = QulliUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shikha-Sharma.QulliUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Qulli;
+			};
+			name = Debug;
+		};
+		81C2F429200F23A700767044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54B1E50B18E7D3D7AA41FFF4 /* Pods-QulliUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J34Y5CTZ4L;
+				INFOPLIST_FILE = QulliUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shikha-Sharma.QulliUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Qulli;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81C2F3F1200F23A700767044 /* Build configuration list for PBXProject "Qulli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81C2F41F200F23A700767044 /* Debug */,
+				81C2F420200F23A700767044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81C2F421200F23A700767044 /* Build configuration list for PBXNativeTarget "Qulli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81C2F422200F23A700767044 /* Debug */,
+				81C2F423200F23A700767044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81C2F424200F23A700767044 /* Build configuration list for PBXNativeTarget "QulliTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81C2F425200F23A700767044 /* Debug */,
+				81C2F426200F23A700767044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81C2F427200F23A700767044 /* Build configuration list for PBXNativeTarget "QulliUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81C2F428200F23A700767044 /* Debug */,
+				81C2F429200F23A700767044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		81C2F400200F23A700767044 /* Qulli.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				81C2F401200F23A700767044 /* Qulli.xcdatamodel */,
+			);
+			currentVersion = 81C2F401200F23A700767044 /* Qulli.xcdatamodel */;
+			path = Qulli.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 81C2F3EE200F23A700767044 /* Project object */;
+}
